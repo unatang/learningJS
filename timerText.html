@@ -1,0 +1,21 @@
+﻿<head>
+<script type="text/javascript">
+function timeText()
+{
+    setTimeout("document.getElementById('txt').value='2秒'", 2000);
+    setTimeout("document.getElementById('txt').value='4秒'", 4000);
+    setTimeout("document.getElementById('txt').value='6秒'", 6000);
+}
+
+</script>
+</head>
+
+<form>
+<input type="button" onclick="timeText()" value="显示记时文本">
+<input type="text" id="txt">
+</form>
+
+<p>点击上面的按钮。输入框会显示已经逝去的时间（2、4、6秒）。</p>
+</body>
+
+</html>
